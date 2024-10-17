@@ -3,9 +3,10 @@
     width: 100%;
 }
 
+/* h1 -> &h1 으로 수정 (nested css) */
 .title {
     background-color: red;
-    h1 {
+    &h1 {
         text-align: center;
     }
 }
